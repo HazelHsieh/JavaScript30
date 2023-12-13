@@ -13,7 +13,7 @@ Github：[wesbos/Javascript30](https://github.com/wesbos/JavaScript30)
 
 | 單元                | 主題                                   | Demo效果                                                                            | 筆記                                                                                          |
 | ------------------- | -------------------------------------- | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| 1. Drum kit         | 利用鍵盤按鍵去觸發畫面上的呈現與音效。 | [Demo](https://github.com/HazelHsieh/JavaScript30/01%20-%20JavaScript%20Drum%20Kit) | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/01%20-%20JavaScript%20Drum%20Kit) |
+| 1. Drum kit         | 利用鍵盤按鍵去觸發畫面上的呈現與音效。 | [Demo](https://hazelhsieh.github.io/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/) | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/01%20-%20JavaScript%20Drum%20Kit) |
 | 2. JS and CSS Clock | 以 JS 及 CSS 實作時鐘                  | [Demo]()                                                                            | [筆記]()                                                                                      |
 
 

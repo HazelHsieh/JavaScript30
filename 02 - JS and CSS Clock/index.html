@@ -7,8 +7,6 @@
 </head>
 
 <body>
-
-
   <div class="clock">
     <div class="clock-face">
       <div class="hand hour-hand"></div>
@@ -56,111 +54,89 @@
       position: relative;
       width: 100%;
       height: 100%;
-      /* transform: translateY(-3px); */
+      transform: translateY(-3px);
       /* account for the height of the clock hands */
-    }
-
-    .clock-face::before {
-      content: '';
-      display: block;
-      position: absolute;
-      width: 20px;
-      height: 20px;
-      background: white;
-      border-radius: 50%;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
     }
 
     .clock-face::after {
       content: '';
-      display: block;
-      position: absolute;
-      width: 10px;
-      height: 10px;
-      background: red;
+      display: black;
+      width: 20px;
+      height: 20px;
+      background-color: #fff;
       border-radius: 50%;
+      position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
     }
 
     .hand {
-      /* width: 50%; */
-      /* height: 6px; */
       width: 100%;
       height: 100%;
-      /* background: black; */
       position: absolute;
-      /* top: 50%; */
     }
 
     .hour-hand::after {
       content: '';
       display: block;
+      width: 10px;
+      height: 25%;
+      background-color: #fff;
       position: absolute;
       bottom: 50%;
       left: 50%;
       transform: translate(-50%, 0%);
-      width: 10px;
-      height: 25%;
-      background: white;
     }
 
     .min-hand::after {
       content: '';
       display: block;
+      width: 8px;
+      height: 45%;
+      background-color: #fff;
       position: absolute;
       bottom: 50%;
       left: 50%;
       transform: translate(-50%, 0%);
-      width: 8px;
-      height: 40%;
-      background: white;
     }
 
     .second-hand::after {
       content: '';
       display: block;
-      position: absolute;
-      bottom: 50%;
-      left: 50%;
-      transform: translate(-50%, 0%);
       width: 5px;
       height: 40%;
-      background: red;
+      background-color: red;
+      position: absolute;
+      left: 50%;
+      bottom: 50%;
+      transform: translate(-50%, 0%);
     }
   </style>
 
-
   <script>
-    const Hour = document.querySelector(".hour-hand");
-    const Min = document.querySelector(".min-hand");
-    const Second = document.querySelector(".second-hand");
-
+    // 先抓到針
+    const Hour = document.querySelector('.hour-hand');
+    const Min = document.querySelector('.min-hand');
+    const Second = document.querySelector('.second-hand');
     // 取時間
     function setClock() {
       const time = new Date();
       const currenHour = time.getHours() * 30 + time.getMinutes() * 30 / 60; // (360/12)
       const currenMinute = time.getMinutes() * 6 + time.getSeconds() * 6 / 60; // (360/60)
-      const currenSecond = time.getSeconds() * 6; // (360/60)
-
+      const currenSecond = time.getSeconds() * 6;
+      // 改變 css
       Hour.style.transform = `rotate(${currenHour}deg)`;
       Min.style.transform = `rotate(${currenMinute}deg)`;
       Second.style.transform = `rotate(${currenSecond}deg)`;
     }
-    setClock() // 初始化畫面
-
-    function timeoutHandler() {
-      setClock();
-      setTimeout(timeoutHandler, 1000);
-    };
+    setClock(); // 初始化畫面
+    // 畫面更新
     function animationHandler() {
       setClock();
       window.requestAnimationFrame(animationHandler);
-    };
-    window.requestAnimationFrame(animationHandler);
+    }
+    window.requestAnimationFrame(animationHandler); // 處理畫面上的setTimeout
   </script>
 </body>
 
