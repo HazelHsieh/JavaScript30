@@ -11,11 +11,12 @@ Github：[wesbos/Javascript30](https://github.com/wesbos/JavaScript30)
 
 以下是 demo 目錄：
 
-| 單元                | 主題                                   | Demo效果                                                                            | 筆記                                                                                                    |
-| ------------------- | -------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| 1. Drum kit         | 利用鍵盤按鍵去觸發畫面上的呈現與音效。 | [Demo](https://hazelhsieh.github.io/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/) | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/01%20-%20JavaScript%20Drum%20Kit/README.md) |
-| 2. JS and CSS Clock | 以 JS 及 CSS 實作時鐘                  | [Demo](https://hazelhsieh.github.io/JavaScript30/02%20-%20JS%20and%20CSS%20Clock/)  | [筆記](https://github.com/HazelHsieh/JavaScript30/blob/main/02%20-%20JS%20and%20CSS%20Clock/README.md)  |
-| 3. CSS Variables    | 利用 JS 去改變 CSS 變數的值            | [Demo](https://hazelhsieh.github.io/JavaScript30/03%20-%20CSS%20Variables/)         | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/03%20-%20CSS%20Variables/README.md)         |
+| 單元                  | 主題                                          | Demo效果                                                                             | 筆記                                                                                                     |
+| --------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| 1. Drum kit           | 利用鍵盤按鍵去觸發畫面上的呈現與音效。        | [Demo](https://hazelhsieh.github.io/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/)  | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/01%20-%20JavaScript%20Drum%20Kit/README.md)  |
+| 2. JS and CSS Clock   | 以 JS 及 CSS 實作時鐘                         | [Demo](https://hazelhsieh.github.io/JavaScript30/02%20-%20JS%20and%20CSS%20Clock/)   | [筆記](https://github.com/HazelHsieh/JavaScript30/blob/main/02%20-%20JS%20and%20CSS%20Clock/README.md)   |
+| 3. CSS Variables      | 利用 JS 去改變 CSS 變數的值                   | [Demo](https://hazelhsieh.github.io/JavaScript30/03%20-%20CSS%20Variables/)          | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/03%20-%20CSS%20Variables/README.md)          |
+| 4. Array Cardio Day 1 | 介紹JS array的使用(filter, map, sort, reduce) | [Demo](https://hazelhsieh.github.io/JavaScript30/04%20-%20Array%20Cardio%20Day%201/) | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/04%20-%20Array%20Cardio%20Day%201/README.md) |
 
 
 ### 參考資料
