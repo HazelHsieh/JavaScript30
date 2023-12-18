@@ -17,6 +17,7 @@ Github：[wesbos/Javascript30](https://github.com/wesbos/JavaScript30)
 | 2. JS and CSS Clock   | 以 JS 及 CSS 實作時鐘                         | [Demo](https://hazelhsieh.github.io/JavaScript30/02%20-%20JS%20and%20CSS%20Clock/)   | [筆記](https://github.com/HazelHsieh/JavaScript30/blob/main/02%20-%20JS%20and%20CSS%20Clock/README.md)   |
 | 3. CSS Variables      | 利用 JS 去改變 CSS 變數的值                   | [Demo](https://hazelhsieh.github.io/JavaScript30/03%20-%20CSS%20Variables/)          | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/03%20-%20CSS%20Variables/README.md)          |
 | 4. Array Cardio Day 1 | 介紹JS array的使用(filter, map, sort, reduce) | [Demo](https://hazelhsieh.github.io/JavaScript30/04%20-%20Array%20Cardio%20Day%201/) | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/04%20-%20Array%20Cardio%20Day%201/README.md) |
+| 5. Flex Panel Gallery | 實作一個圖片展開的動畫                        | [Demo](https://hazelhsieh.github.io/JavaScript30/05%20-%20Flex%20Panel%20Gallery/)   | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/05%20-%20Flex%20Panel%20Gallery/README.md)   |
 
 
 ### 參考資料
