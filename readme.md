@@ -19,6 +19,7 @@ Github：[wesbos/Javascript30](https://github.com/wesbos/JavaScript30)
 | 4. Array Cardio Day 1 | 介紹JS array的使用(filter, map, sort, reduce)                                                                    | [Demo](https://hazelhsieh.github.io/JavaScript30/04%20-%20Array%20Cardio%20Day%201/) | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/04%20-%20Array%20Cardio%20Day%201/README.md) |
 | 5. Flex Panel Gallery | 實作一個圖片展開的動畫                                                                                           | [Demo](https://hazelhsieh.github.io/JavaScript30/05%20-%20Flex%20Panel%20Gallery/)   | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/05%20-%20Flex%20Panel%20Gallery/README.md)   |
 | 6. Type Ahead         | 利用 `Fetch API`、非同步載入的方式，並配合正規表達式處理字串，實現使用者輸入的城市名稱時動態地查找相對應的資料。 | [Demo](https://hazelhsieh.github.io/JavaScript30/06%20-%20Type%20Ahead/)             | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/06%20-%20Type%20Ahead/README.md)             |
+| 7. Array Cardio Day 2 | 介紹JS array的使用(some, every, find, findIndex, splice, slice)                                                  | [Demo](https://hazelhsieh.github.io/JavaScript30/07%20-%20Array%20Cardio%20Day%202/) | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/07%20-%20Array%20Cardio%20Day%202/README.md) |
 
 
 ### 參考資料
