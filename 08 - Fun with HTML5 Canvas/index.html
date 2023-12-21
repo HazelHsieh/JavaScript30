@@ -1,19 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>HTML5 Canvas</title>
 </head>
-<body>
-<canvas id="draw" width="800" height="800"></canvas>
-<script>
-</script>
 
-<style>
-  html, body {
-    margin: 0;
-  }
-</style>
+<body>
+  <canvas id="draw" width="800" height="800"></canvas>
+  <script>
+    const canvas = document.querySelector('#draw');
+    const ctx = canvas.getContext("2d");
+
+    let isDrawing = false;
+    let lastX = 0;
+    let lastY = 0;
+    let colorDeg = 0;
+    let lineWidthNum = 50; //起始
+    let direction = -1; //起始
+    ctx.strokeStyle = `hsl(${colorDeg},100%,50%)`;
+    ctx.lineWidth = lineWidthNum;
+    ctx.lineCap = "round";
+    ctx.lineJoin = "round";
+
+
+    canvas.addEventListener('mousedown', (e) => {
+      isDrawing = true;
+      [lastX, lastY] = [e.offsetX, e.offsetY];
+    })
+    canvas.addEventListener('mousemove', (e) => {
+      if (!isDrawing) return;
+      ctx.beginPath();
+      colorDeg = colorDeg < 360 ? colorDeg + 1 : 0;
+      ctx.strokeStyle = `hsl(${colorDeg},100%,50%)`;
+
+      // 如果小於 1 或大於 50 就 *-1
+      if (lineWidthNum < 1 || lineWidthNum > 50) {
+        direction *= -1;
+      }
+      // 這裡就會是加或減
+      lineWidthNum += direction;
+      ctx.lineWidth = lineWidthNum;
+
+      ctx.moveTo(lastX, lastY);
+      ctx.lineTo(e.offsetX, e.offsetY);
+      [lastX, lastY] = [e.offsetX, e.offsetY];
+      ctx.stroke()
+    })
+    canvas.addEventListener('mouseup', () => {
+      isDrawing = false;
+    })
+    canvas.addEventListener('mouseleave', () => {
+      isDrawing = false;
+    })
+  </script>
+
+  <style>
+    html,
+    body {
+      margin: 0;
+    }
+
+    canvas {
+      border: 1px solid black;
+    }
+  </style>
 
 </body>
+
 </html>
