@@ -23,6 +23,7 @@ Github：[wesbos/Javascript30](https://github.com/wesbos/JavaScript30)
 | 8. Fun with HTML5 Canvas            | 利用 Html 的`canvas` 標籤搭配 JS 做出畫布的效果。 實現畫筆顏色(`hsl`)和粗細變化。                                | [Demo](https://hazelhsieh.github.io/JavaScript30/08%20-%20Fun%20with%20HTML5%20Canvas/)             | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/08%20-%20Fun%**20with**%20HTML5%20Canvas/README.md)         |
 | 9. Dev Tools Domination             | 介紹 `dev tool`，了解 `javascript` 裡 `console` 的實用功能。                                                     | [Demo](https://hazelhsieh.github.io/JavaScript30/09%20-%20Dev%20Tools%20Domination/)                | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/09%20-%20Dev%20Tools%20Domination/README.md)                |
 | 10. Hold Shift and Check Checkboxes | 實作出按住 `Shift` 點擊 check list，達到連續選取的效果。                                                         | [Demo](https://hazelhsieh.github.io/JavaScript30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/) | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/README.md) |
+| 11. Custom Video Player             | 利用 <video> 標籤，實作影片播放器的基礎功能                                                                      | [Demo](https://hazelhsieh.github.io/JavaScript30/11%20-%20Custom%20Video%20Player/)                 | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/11%20-%20Custom%20Video%20Player/README.md)                 |
 
 
 
