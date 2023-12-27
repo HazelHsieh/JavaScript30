@@ -24,7 +24,7 @@ Github：[wesbos/Javascript30](https://github.com/wesbos/JavaScript30)
 | 9. Dev Tools Domination             | 介紹 `dev tool`，了解 `javascript` 裡 `console` 的實用功能。                                                     | [Demo](https://hazelhsieh.github.io/JavaScript30/09%20-%20Dev%20Tools%20Domination/)                | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/09%20-%20Dev%20Tools%20Domination/README.md)                |
 | 10. Hold Shift and Check Checkboxes | 實作出按住 `Shift` 點擊 check list，達到連續選取的效果。                                                         | [Demo](https://hazelhsieh.github.io/JavaScript30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/) | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/README.md) |
 | 11. Custom Video Player             | 利用 `<video>` 標籤，實作影片播放器的基礎功能                                                                    | [Demo](https://hazelhsieh.github.io/JavaScript30/11%20-%20Custom%20Video%20Player/)                 | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/11%20-%20Custom%20Video%20Player/README.md)                 |
-
+| 12. Key Sequence Detection          | 實作一個 Key Sequence(按鍵序列的偵測)，輸入一段特殊文字後會產生畫面。                                            | [Demo](https://hazelhsieh.github.io/JavaScript30/12%20-%20Key%20Sequence%20Detection/)              | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/12%20-%20Key%20Sequence%20Detection/README.md)              |
 
 
 

@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Key Detection</title>
+  <link rel="icon" href="/favicon.ico.svg">
   <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
 </head>
+
 <body>
-<script>
-</script>
+  <p>typing : hazel</p>
+  <script>
+    const pressed = [];
+    const secretCode = 'hazel';
+    window.addEventListener('keyup', (e) => {
+      pressed.push(e.key);
+      //                其實等於 0
+      pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+      // 等於上面那一行，少掉判斷式
+      // if (pressed.length > secretCode.length) {
+      //   pressed.splice(0, 1);
+      // }
+      // 另一種寫法
+      // while (pressed.length > secretCode.length) {
+      //   pressed.shift();
+      // }
+      if (pressed.join('').includes(secretCode)) {
+        console.log('Ding');
+        cornify_add();
+      }
+    })
+  </script>
 </body>
+
 </html>
