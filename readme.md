@@ -27,6 +27,7 @@ Github：[wesbos/Javascript30](https://github.com/wesbos/JavaScript30)
 | 12. Key Sequence Detection           | 實作一個 Key Sequence(按鍵序列的偵測)，輸入一段特殊文字後會產生畫面。                                            | [Demo](https://hazelhsieh.github.io/JavaScript30/12%20-%20Key%20Sequence%20Detection/)              | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/12%20-%20Key%20Sequence%20Detection/README.md)              |
 | 13. Slide in on Scroll               | 實作一個當畫面滾動到圖片區域時圖片以動畫方式跑出。                                                               | [Demo](https://hazelhsieh.github.io/JavaScript30/13%20-%20Slide%20in%20on%20Scroll/)                | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/13%20-%20Slide%20in%20on%20Scroll/README.md)                |
 | 14. JavaScript References VS Copying | 介紹 JS 賦值時，reference(參考) 與 copying(拷貝)。                                                               | [Demo](https://hazelhsieh.github.io/JavaScript30/14%20-%20JavaScript%20References%20VS%20Copying/)  | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/14%20-%20JavaScript%20References%20VS%20Copying/README.md)  |
+| 15. LocalStorage and Event Delegate  | 實作一個 LocalStorage 的紀錄菜單功能。                                                                           | [Demo](https://hazelhsieh.github.io/JavaScript30/15%20-%20LocalStorage/)                            | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/15%20-%20LocalStorage/README.md)                            |
 
 
 
