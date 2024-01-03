@@ -28,6 +28,7 @@ Github：[wesbos/Javascript30](https://github.com/wesbos/JavaScript30)
 | 13. Slide in on Scroll               | 實作一個當畫面滾動到圖片區域時圖片以動畫方式跑出。                                                               | [Demo](https://hazelhsieh.github.io/JavaScript30/13%20-%20Slide%20in%20on%20Scroll/)                | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/13%20-%20Slide%20in%20on%20Scroll/README.md)                |
 | 14. JavaScript References VS Copying | 介紹 JS 賦值時，reference(參考) 與 copying(拷貝)。                                                               | [Demo](https://hazelhsieh.github.io/JavaScript30/14%20-%20JavaScript%20References%20VS%20Copying/)  | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/14%20-%20JavaScript%20References%20VS%20Copying/README.md)  |
 | 15. LocalStorage and Event Delegate  | 實作一個 LocalStorage 的紀錄菜單功能。                                                                           | [Demo](https://hazelhsieh.github.io/JavaScript30/15%20-%20LocalStorage/)                            | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/15%20-%20LocalStorage/README.md)                            |
+| 16. Mouse Move Shadow                | 實作一個滑鼠移動時，產生不同陰影的效果。                                                                         | [Demo](https://hazelhsieh.github.io/JavaScript30/16%20-%20Mouse%20Move%20Shadow/)                   | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/16%20-%20Mouse%20Move%20Shadow/README.md)                   |
 
 
 

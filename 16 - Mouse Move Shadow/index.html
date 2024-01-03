@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Mouse Shadow</title>
+  <link rel="icon" href="/favicon.ico.svg">
 </head>
+
 <body>
 
   <div class="hero">
@@ -11,30 +14,58 @@
   </div>
 
   <style>
-  html {
-    color: black;
-    font-family: sans-serif;
-  }
+    html {
+      color: black;
+      font-family: sans-serif;
+    }
 
-  body {
-    margin: 0;
-  }
+    body {
+      margin: 0;
+    }
 
-  .hero {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-  }
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      background-color: rgb(214, 246, 236);
+    }
 
-  h1 {
-    text-shadow: 10px 10px 0 rgba(0,0,0,1);
-    font-size: 100px;
-  }
+    h1 {
+      text-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
+      font-size: 100px;
+      background-color: rgb(199, 246, 246);
+    }
   </style>
 
-<script>
-</script>
+  <script>
+    const hero = document.querySelector('.hero');
+    const text = document.querySelector('h1');
+    const walk = 100;
+
+    function shadow(e) {
+      const { offsetWidth: width, offsetHeight: height } = hero;
+      let { offsetX: x, offsetY: y } = e;
+
+      if (this !== e.target) {
+        x += e.target.offsetLeft;
+        y += e.target.offsetTop;
+      }
+
+      const xWalk = Math.round(x / width * walk) * 2 - walk;
+      const yWalk = Math.round(y / height * walk) * 2 - walk;
+
+      text.style.textShadow = `
+      ${xWalk * -.3}px ${yWalk * -.3}px 1px rgba(250,169,169,0.7),
+      ${xWalk * -.7}px ${yWalk * -.7}px 1px rgba(123,59,58,0.7),
+      ${xWalk * -1}px ${yWalk * -1}px 1px rgba(38,97,156,0.7),
+      ${xWalk * -1.3}px ${yWalk * -1.3}px 1px rgba(111,130,107,0.7)
+      `;
+    }
+    hero.addEventListener('mousemove', shadow);
+
+  </script>
 </body>
+
 </html>
