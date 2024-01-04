@@ -29,6 +29,7 @@ Github：[wesbos/Javascript30](https://github.com/wesbos/JavaScript30)
 | 14. JavaScript References VS Copying | 介紹 JS 賦值時，reference(參考) 與 copying(拷貝)。                                                               | [Demo](https://hazelhsieh.github.io/JavaScript30/14%20-%20JavaScript%20References%20VS%20Copying/)  | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/14%20-%20JavaScript%20References%20VS%20Copying/README.md)  |
 | 15. LocalStorage and Event Delegate  | 實作一個 LocalStorage 的紀錄菜單功能。                                                                           | [Demo](https://hazelhsieh.github.io/JavaScript30/15%20-%20LocalStorage/)                            | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/15%20-%20LocalStorage/README.md)                            |
 | 16. Mouse Move Shadow                | 實作一個滑鼠移動時，產生不同陰影的效果。                                                                         | [Demo](https://hazelhsieh.github.io/JavaScript30/16%20-%20Mouse%20Move%20Shadow/)                   | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/16%20-%20Mouse%20Move%20Shadow/README.md)                   |
+| 17. Sort Without Articles            | 利用編排文章排序來複習陣列方法`sort`, `map`, `join`, `replace`, `trim` 並搭配正則使用。                          | [Demo](https://hazelhsieh.github.io/JavaScript30/17%20-%20Sort%20Without%20Articles/)               | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/17%20-%20Sort%20Without%20Articles/README.md)               |
 
 
 
