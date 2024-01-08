@@ -58,3 +58,60 @@ html {
 .strip a:nth-child(5n+3) img { transform: rotate(8deg); }
 .strip a:nth-child(5n+4) img { transform: rotate(-11deg); }
 .strip a:nth-child(5n+5) img { transform: rotate(12deg); }
+
+
+input[type=range] {
+  -webkit-appearance: none;
+  /* border: 1px solid transparent; */
+  width: 200px;
+  padding-top: 8px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 5px;
+  background: #ebeaed;
+  border: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 14px;
+  width: 8px;
+  border-radius: 5%;
+  background: #8eadde;
+  margin-top: -4px;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ccc;
+}
+
+input[type=range]::-moz-range-track {
+  width: 300px;
+  height: 5px;
+  background: #ebeaed;
+  border: none;
+}
+
+input[type=range]::-moz-range-thumb {
+  border: none;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: #8eadde;
+}
+
+input[type=range]:-moz-focusring {
+  outline: 1px solid #dcdde2;
+  outline-offset: -1px;
+}
+
+.controls {
+  padding: 5px;
+}
