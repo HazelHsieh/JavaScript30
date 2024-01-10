@@ -33,6 +33,7 @@ Github：[wesbos/Javascript30](https://github.com/wesbos/JavaScript30)
 | 18. Adding Up Time With Reduce       | 利用取得播放清單總秒數來複習陣列方法`reduce`, `map`的使用。                                                      | [Demo](https://hazelhsieh.github.io/JavaScript30/18%20-%20Adding%20Up%20Times%20with%20Reduce/)     | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/18%20-%20Adding%20Up%20Times%20with%20Reduce/README.md)     |
 | 19. WebCam Fun                       | 實作一個 `webcam` ，有拍照、下載、濾鏡的效果。                                                                   | [Demo](https://hazelhsieh.github.io/JavaScript30/19%20-%20Webcam%20Fun/)                            | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/19%20-%20Webcam%20Fun/README.md)                            |
 | 20. Speech Detection                 | 實作一個語音輸入文字輸出的工具。                                                                                 | [Demo](https://hazelhsieh.github.io/JavaScript30/20%20-%20Speech%20Detection/)                      | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/20%20-%20Speech%20Detection/README.md)                      |
+| 21. Geolocation                      | 實作一個顯示當前方位與速度的工具(手機比較能呈現)。                                                               | [Demo](https://hazelhsieh.github.io/JavaScript30/21%20-%20Geolocation/)                             | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/21%20-%20Geolocation/README.md)                             |
 
 
 
