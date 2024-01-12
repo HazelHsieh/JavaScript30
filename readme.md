@@ -35,6 +35,7 @@ Github：[wesbos/Javascript30](https://github.com/wesbos/JavaScript30)
 | 20. Speech Detection                 | 實作一個語音輸入文字輸出的工具。                                                                                 | [Demo](https://hazelhsieh.github.io/JavaScript30/20%20-%20Speech%20Detection/)                      | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/20%20-%20Speech%20Detection/README.md)                      |
 | 21. Geolocation                      | 實作一個顯示當前方位與速度的工具(手機比較能呈現)。                                                               | [Demo](https://hazelhsieh.github.io/JavaScript30/21%20-%20Geolocation/)                             | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/21%20-%20Geolocation/README.md)                             |
 | 22. Follow Along Link Highlight      | 實作一個跟隨滑鼠移動的 HightLight 效果。                                                                         | [Demo](https://hazelhsieh.github.io/JavaScript30/22%20-%20Follow%20Along%20Link%20Highlighter/)     | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/22%20-%20Follow%20Along%20Link%20Highlighter/README.md)     |
+| 23. Speech Synthesis                 | 實作一個文字輸入語音輸出的工具，有播放、暫停、語速、音量調整功能。                                               | [Demo](https://hazelhsieh.github.io/JavaScript30/23%20-%20Speech%20Synthesis/)                      | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/23%20-%20Speech%20Synthesis/README.md)                      |
 
 
 
