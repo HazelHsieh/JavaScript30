@@ -1,48 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Understanding JavaScript's Capture</title>
+  <link rel="icon" href="/favicon.ico.svg">
+  <style>
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    div {
+      width: 100%;
+      padding: 100px;
+    }
+
+    .one {
+      background: thistle;
+    }
+
+    .two {
+      background: mistyrose;
+    }
+
+    .three {
+      background: coral;
+    }
+
+    ul {
+      background-color: thistle;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    li {
+      background-color: mistyrose;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    a {
+      background-color: coral;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .bubbling,
+    .capture {
+      margin: 5px;
+      background-color: burlywood;
+    }
+  </style>
 </head>
+
 <body class="bod">
 
-  <div class="one">
-    <div class="two">
-      <div class="three">
+  <div class="one">one
+    <div class="two">two
+      <div class="three">three
+        <p>
+          <input type="checkbox" id="capture">
+          <label for="capture">capture</label>
+        </p>
       </div>
     </div>
+
   </div>
 
-<style>
-  html {
-    box-sizing: border-box;
-  }
-  
-  *, *:before, *:after { 
-    box-sizing: inherit; 
-  }
+  <button class="once">click</button>
+  <span class="consoleOutput">console: </span>
+  <ul>
+    <li><a href="#">button 1</a></li>
+    <li><a href="#">button 2</a></li>
+    <li><a href="#">button 3</a></li>
+  </ul>
+  <script>
+    const dives = document.querySelectorAll('div');
+    const btn = document.querySelector('.once');
+    const checkbox = document.querySelector('#capture');
 
-  div {
-    width: 100%;
-    padding: 100px;
-  }
+    function logText(e) {
+      const consoleOutput = document.querySelector('.consoleOutput');
+      const span = document.createElement('span');
+      span.textContent = this.classList.value + ' ';
+      consoleOutput.appendChild(span);
+      console.log(this.classList.value);
+      // e.stopPropagation();
+    }
 
-  .one {
-    background: thistle;
-  }
+    function setCapture() {
+      const captureValue = checkbox.checked;
+      dives.forEach(div => div.removeEventListener('click', logText, {
+        capture: !captureValue,
+      }));
+      dives.forEach(div => div.addEventListener('click', logText, {
+        capture: captureValue,
+      }));
+    }
+    setCapture()
+    checkbox.addEventListener('change', setCapture)
 
-  .two {
-    background: mistyrose;
-  }
 
-  .three {
-    background: coral;
-  }
-</style>
 
-<button></button>
-<script>
+    // once
+    btn.addEventListener('click', () => {
+      console.log('click!!');
+    }, {
+      once: true
+    })
 
-</script>
+    // binding
+    let as = document.querySelectorAll('a');
+    function aHandler(e) {
+      e.preventDefault();
+      // console.log("binding A Click", this);
+    }
+    as.forEach(dom => {
+      dom.addEventListener('click', aHandler)
+    })
+
+    // delegate 
+    let ul = document.querySelector("ul");
+    function ulHandler(e) {
+      console.log("target", e.target, "currentTarget", e.currentTarget);
+      if (e.target.nodeName === "A") {
+        e.preventDefault();
+        // console.log("delegate A Click", e.target);
+      }
+    }
+    ul.addEventListener('click', ulHandler);
+
+  </script>
 </body>
+
 </html>
