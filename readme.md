@@ -38,7 +38,7 @@ Github：[wesbos/Javascript30](https://github.com/wesbos/JavaScript30)
 | 23. Speech Synthesis                              | 實作一個文字輸入語音輸出的工具，有播放、暫停、語速、音量調整功能。                                                            | [Demo](https://hazelhsieh.github.io/JavaScript30/23%20-%20Speech%20Synthesis/)                                          | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/23%20-%20Speech%20Synthesis/README.md)                                          |
 | 24. Sticky Nav                                    | 實作一個置頂的選單列。                                                                                                        | [Demo](https://hazelhsieh.github.io/JavaScript30/24%20-%20Sticky%20Nav/)                                                | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/24%20-%20Sticky%20Nav/README.md)                                                |
 | 25. Event Capture, Propagation, Bubbling and Once | 了解 addEventListener 中的第三個參數 Event Capture(捕捉事件), Event Bubbling(冒泡事件), Propagation(傳遞)、Once(僅執行一次)。 | [Demo](https://hazelhsieh.github.io/JavaScript30/25%20-%20Event%20Capture%2C%20Propagation%2C%20Bubbling%20and%20Once/) | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/25%20-%20Event%20Capture%2C%20Propagation%2C%20Bubbling%20and%20Once/README.md) |
-
+| 26. Stripe Follow Along Nav                       | 實作一個隨著滑鼠停留後會下拉的選單列效果。                                                                                    | [Demo](https://hazelhsieh.github.io/JavaScript30/26%20-%20Stripe%20Follow%20Along%20Nav/)                               | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/26%20-%20Stripe%20Follow%20Along%20Nav/README.md)                               |
 
 
 
