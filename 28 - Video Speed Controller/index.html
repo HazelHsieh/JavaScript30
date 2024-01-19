@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Video Speed Scrubber</title>
+  <link rel="icon" href="/favicon.ico.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <video class="video" width="765" height="430" src="652333414.mp4" loop controls></video>
+    <div class="speed">
+      <div class="speed-bar">1×</div>
+    </div>
+  </div>
+
+  <script>
+    const speed = document.querySelector('.speed');
+    const speedBar = document.querySelector('.speed-bar');
+    const video = document.querySelector('.video');
+
+    function speedHandler(e) {
+      const y = e.pageY - this.offsetTop;
+      const yPercent = y / this.offsetHeight;
+      const min = 0.4;
+      const max = 4;
+      const playbackRate = yPercent * (max - min) + min;
+      speedBar.style.height = Math.floor(yPercent * 100) + '%';
+      speedBar.textContent = playbackRate.toFixed(2) + 'x';
+      video.playbackRate = playbackRate;
+    }
+
+    speed.addEventListener('mousemove', speedHandler)
+  </script>
+</body>
+
+</html>
