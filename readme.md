@@ -42,8 +42,7 @@ Github：[wesbos/Javascript30](https://github.com/wesbos/JavaScript30)
 | 27. Click and Drag                                | 實作一個隨著滑鼠點擊左右移動內容的效果。                                                                                      | [Demo](https://hazelhsieh.github.io/JavaScript30/27%20-%20Click%20and%20Drag/)                                          | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/27%20-%20Click%20and%20Drag/README.md)                                          |
 | 28. Video speed controller                        | 實作一個影片播放器的調整播放速度 bar。                                                                                        | [Demo](https://hazelhsieh.github.io/JavaScript30/28%20-%20Video%20Speed%20Controller/)                                  | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/28%20-%20Video%20Speed%20Controller/README.md)                                  |
 | 29. Countdown Timer                               | 實作一個倒數計時器。                                                                                                          | [Demo](https://hazelhsieh.github.io/JavaScript30/29%20-%20Countdown%20Timer/)                                           | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/29%20-%20Countdown%20Timer/README.md)                                           |
-
-
+| 30. Whack a Hole!                                 | 實作一個打地鼠的遊戲，有計分/計時功能。                                                                                       | [Demo](https://hazelhsieh.github.io/JavaScript30/30%20-%20Whack%20A%20Mole/)                                            | [筆記](https://github.com/HazelHsieh/JavaScript30/tree/main/30%20-%20Whack%20A%20Mole/README.md)                                            |
 
 
 ### 參考資料
